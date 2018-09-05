@@ -95,6 +95,13 @@ h6 {
   width: 40px;
 }
 
+.left-photo-scroll-btn:hover,
+.right-photo-scroll-btn:hover {
+  height: 45px;
+  width: 45px;
+  border-radius: 22.5px;
+}
+
 
 .left-photo-scroll-btn {
   left: 15px;
@@ -145,7 +152,7 @@ h6 {
   grid-area: obsessions;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 970px) {
   body { 
   display: grid;
   grid-template-areas: "info-section     info-section  the-bassador  the-bassador"
@@ -178,7 +185,7 @@ h6 {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   body { 
   display: grid;
   grid-template-areas: "info-section    info-section     the-bassador"
@@ -248,13 +255,21 @@ h6 {
   }
 
   p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   h6 {
     font-size: 13px;
     margin: 0 0 8px 0;
   }
+
+  .info-btn {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  height: 45px;
+  width: 120px;
+}
 
   .grid-squares {
     padding: 10px;
