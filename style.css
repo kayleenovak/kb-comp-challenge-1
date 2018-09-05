@@ -40,7 +40,7 @@ form {
   color: white;
   font-size: 14px;
   height: 45px;
-  width: 160px;
+  width: 165px;
   margin-top: 0;
   margin-right: 8px;
 }
@@ -152,7 +152,7 @@ h6 {
   grid-area: obsessions;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 990px) {
   body { 
   display: grid;
   grid-template-areas: "info-section     info-section  the-bassador  the-bassador"
